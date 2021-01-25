@@ -6,6 +6,9 @@ PR 하는 방법에 대한 레포지토리
 
 # 🍴 FORK   
 ![2](https://user-images.githubusercontent.com/50267433/105651915-79e84700-5efb-11eb-914b-6932129a9b75.PNG)          
+
+___
+
 ![3](https://user-images.githubusercontent.com/50267433/105651964-95ebe880-5efb-11eb-93dd-d9b030222ef2.PNG)        
 
 # 🍽 본인의 계정에서 포크되었는지 확인!
@@ -13,6 +16,9 @@ PR 하는 방법에 대한 레포지토리
 
 # 🍩 브랜치 생성 및 전환
 ![5](https://user-images.githubusercontent.com/50267433/105652042-bcaa1f00-5efb-11eb-9146-e2ee9229def8.PNG)      
+  
+___
+
 ![6](https://user-images.githubusercontent.com/50267433/105652079-cf245880-5efb-11eb-9d8b-32393c9c3804.PNG)     
 
 # 🍪 과제 올리기
@@ -20,10 +26,19 @@ PR 하는 방법에 대한 레포지토리
 
 # 🧀 PR 보내기 
 ![8](https://user-images.githubusercontent.com/50267433/105652124-e8c5a000-5efb-11eb-84f2-1fd95a86cedd.PNG)        
+
+___
+
 ![9](https://user-images.githubusercontent.com/50267433/105652164-fbd87000-5efb-11eb-93fa-dd0c6d20afe1.PNG)       
+
+___
+
 ![10](https://user-images.githubusercontent.com/50267433/105652192-08f55f00-5efc-11eb-80ce-20e09cb5ecdd.PNG)   
      
 # 🥂 머지하기 (관리자)   
 ![11](https://user-images.githubusercontent.com/50267433/105652230-1a3e6b80-5efc-11eb-90b3-7c1810b6ca71.PNG)      
+
+___
+
 ![12](https://user-images.githubusercontent.com/50267433/105652247-232f3d00-5efc-11eb-83cb-6266c43b0a2d.PNG)     
 
