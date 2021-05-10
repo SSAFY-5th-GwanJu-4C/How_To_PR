@@ -1,3 +1,4 @@
+# 환경 설정하기 
 ## 포크하기 
 프로젝트를 자신의 계정으로 fork한다.    
 저장소 우측 상단의 fork 버튼을 활용한다.
@@ -23,7 +24,7 @@ clone을 완료한 후의 상태는 다음과 같다.
   
 [사진]()  
   
-# IntelliJ를 시작   
+# IntelliJ 시작   
 ## 기능 구현을 위한 브랜치 생성   
 git은 서로 다른 작업을 하기 위한 별도의 공간을 생성할 때 브랜치를 생성할 수 있다.   
    
@@ -68,3 +69,46 @@ push 명령을 실행한 후의 상태는 다음과 같다.
   
 [사진]()   
    
+# 코드 리뷰 받기 
+pull request를 통해 코드 리뷰 요청을 한 후 피드백을 받고, 피드백을 반영하는 과정을 다룬다.
+      
+github 서비스에서 pull request를 보낸다. 
+pull request는 github에서 제공하는 기능으로 코드리뷰 요청을 보낼 때 사용한다.   
+    
+pull request는 original 저장소의 브랜치(자신의 github 아이디)와    
+앞 단계에서 생성한 브랜치 이름(앞 단계의 예에서는 step1)을 기준으로 한다.   
+  
+즉, 각자의 아이디에 맞게끔 Pr 을 날리면 된다.   
+   
+```
+kwj1270 <= step1 
+```
+    
+## 작업 설명 (브라우저에서)  
+브라우저에서 github 저장소에 접근한다.
+브랜치를 작업 브랜치로 변경한다(앞 단계의 예에서는 step1).
+브랜치 오른쪽에 있는 `New pull request` 버튼을 클릭한다.
+              
+**pull request 보내기**        
+1. 저장소의 브랜치를 자신의 github 계정 브랜치로 변경한다.
+2. 현재 미션에서 작업한 내용을 입력하고 "Create pull request" 버튼을 클릭해 pull request를 보낸다.
+3. pull request 브랜치 변경
+          
+pull request를 보낸 후 리뷰어에게 리뷰 요청을 한다. **(단톡방에 리뷰 요청 메시지 보내주세요)**     
+     
+pull request에 대해 승인이 되지 않고 수정 요청 피드백을 받으면 피드백 받은 내용을 반영한다.      
+만약, pull request가 승인이 되어 next-step 저장소에 통합(merge)이 된다면 아래 단계를 진행한다.     
+또한, 피드백을 반영한 후 add, commit, push 명령을 실행한다.
+   
+참고로, 피드백을 통해 코드를 수정할 일이 있다해도 add, commit, push 만 한다면 PR 요청은 다시 안보내도 된다.  
+앞서 보낸 pull request가 통합(merge)되지 않은 상태이기 때문에 같은 pull request를 재활용한다.
+
+```git
+git status // 변경된 파일 확인
+git add -A(또는 .) // 변경된 전체 파일을 한번에 반영
+git commit -m "메시지" // 작업한 내용을 메시지에 기록
+git push origin 브랜치이름
+```
+* `ex) git push origin step1`  
+     
+몇 번의 피드백을 주고 받은 후 승인이 되어 next-step 저장소에 통합(merge)이 된다면 아래 단계를 진행한다.
