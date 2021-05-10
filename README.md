@@ -72,28 +72,28 @@ push 명령을 실행한 후의 상태는 다음과 같다.
 # 코드 리뷰 받기 
 pull request를 통해 코드 리뷰 요청을 한 후 피드백을 받고, 피드백을 반영하는 과정을 다룬다.   
         
-github 서비스에서 pull request를 보낸다.       
-pull request는 github에서 제공하는 기능으로 코드리뷰 요청을 보낼 때 사용한다.     
+github 서비스에서 `pull request`를 보낸다.       
+`pull request`는 `github`에서 제공하는 기능으로 코드리뷰 요청을 보낼 때 사용한다.     
       
-pull request는 original 저장소의 브랜치(자신의 github 아이디)와      
+`pull request`는 `original` 저장소의 브랜치(자신의 github 아이디)와      
 앞 단계에서 생성한 브랜치 이름(앞 단계의 예에서는 step1)을 기준으로 한다.     
-      
-즉, 각자의 아이디에 맞게끔 Pr 을 날리면 된다.      
+        
+즉, 각자의 아이디에 맞게끔 Pr 을 날리면 된다.        
    
 ```
 kwj1270 <= step1 
 ```
     
 ## 작업 설명 (브라우저에서)  
-브라우저에서 github 저장소에 접근한다.
-브랜치를 작업 브랜치로 변경한다(앞 단계의 예에서는 step1).
-브랜치 오른쪽에 있는 `New pull request` 버튼을 클릭한다.
-              
-**pull request 보내기**        
-1. 저장소의 브랜치를 자신의 github 계정 브랜치로 변경한다.
-2. 현재 미션에서 작업한 내용을 입력하고 "Create pull request" 버튼을 클릭해 pull request를 보낸다.
-3. `pull request` 브랜치 변경
-          
+브라우저에서 `github` 저장소에 접근한다.   
+브랜치를 작업 브랜치로 변경한다(앞 단계의 예에서는 step1).   
+브랜치 오른쪽에 있는 `New pull request` 버튼을 클릭한다.   
+                 
+**pull request 보내기**           
+1. 저장소의 브랜치를 자신의 `github` 계정 브랜치로 변경한다.     
+2. 현재 미션에서 작업한 내용을 입력하고 `"Create pull request"` 버튼을 클릭해 `pull request`를 보낸다.   
+3. `pull request` 브랜치 변경    
+            
 `pull request`를 보낸 후 리뷰어에게 리뷰 요청을 한다. **(단톡방에 리뷰 요청 메시지 보내주세요)**           
               
 `pull request`에 대해 **승인이 되지 않고 수정 요청 피드백을 받으면 피드백 받은 내용을 반영한다.**          
