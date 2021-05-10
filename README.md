@@ -92,17 +92,16 @@ kwj1270 <= step1
 **pull request 보내기**        
 1. 저장소의 브랜치를 자신의 github 계정 브랜치로 변경한다.
 2. 현재 미션에서 작업한 내용을 입력하고 "Create pull request" 버튼을 클릭해 pull request를 보낸다.
-3. pull request 브랜치 변경
+3. `pull request` 브랜치 변경
           
-pull request를 보낸 후 리뷰어에게 리뷰 요청을 한다. **(단톡방에 리뷰 요청 메시지 보내주세요)**     
+`pull request`를 보낸 후 리뷰어에게 리뷰 요청을 한다. **(단톡방에 리뷰 요청 메시지 보내주세요)**     
+          
+`pull request`에 대해 **승인이 되지 않고 수정 요청 피드백을 받으면 피드백 받은 내용을 반영한다.**        
+만약, `pull request`가 **승인이 되어 저장소에 `merge` 된다면 아래 다음 단계의 설명을 보면된다.**        
      
-pull request에 대해 승인이 되지 않고 수정 요청 피드백을 받으면 피드백 받은 내용을 반영한다.      
-만약, pull request가 승인이 되어 next-step 저장소에 통합(merge)이 된다면 아래 단계를 진행한다.     
-또한, 피드백을 반영한 후 add, commit, push 명령을 실행한다.
-   
-참고로, 피드백을 통해 코드를 수정할 일이 있다해도 add, commit, push 만 한다면 PR 요청은 다시 안보내도 된다.  
-앞서 보낸 pull request가 통합(merge)되지 않은 상태이기 때문에 같은 pull request를 재활용한다.
-
+피드백을 받았다면 **피드백을 반영한 후 `add, commit, push` 명령을 실행한다.**           
+참고로, `add, commit, push` 만 한다면 `pull request` 요청은 다시 안 보내도 된다.    
+  
 ```git
 git status // 변경된 파일 확인
 git add -A(또는 .) // 변경된 전체 파일을 한번에 반영
@@ -111,4 +110,6 @@ git push origin 브랜치이름
 ```
 * `ex) git push origin step1`  
      
-몇 번의 피드백을 주고 받은 후 승인이 되어 next-step 저장소에 통합(merge)이 된다면 아래 단계를 진행한다.
+몇 번의 피드백을 주고 받은 후 승인이 되어 저장소에 `merge`된다면 아래 단계를 진행한다.   
+
+
